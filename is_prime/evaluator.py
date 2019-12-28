@@ -53,5 +53,4 @@ for _ in range(10):
         ta.goals["correct"] = False
         print("Something went wrong...")
         print(e)
-
 ta.goals.setdefault("correct", True)
