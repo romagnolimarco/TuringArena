@@ -1,0 +1,11 @@
+function max_index(n, a[]);
+
+main {
+    read n;
+    for i to n {
+        read a[i];
+    }
+
+    call index = max_index(n, a);
+    write index;
+}

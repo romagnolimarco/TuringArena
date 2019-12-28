@@ -1,0 +1,7 @@
+function is_prime(n);
+
+main {
+    read n;
+    call prime = is_prime(n);
+    write prime;
+}

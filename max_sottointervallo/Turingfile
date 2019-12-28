@@ -1,0 +1,5 @@
+[problem]
+title = "Max sottointervallo"
+
+[scoring]
+goals = ["correct"]

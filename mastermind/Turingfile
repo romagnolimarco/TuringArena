@@ -1,0 +1,5 @@
+[problem]
+title = "Mastermind"
+
+[scoring]
+goals = ["correct", "perfect", "in_game"]

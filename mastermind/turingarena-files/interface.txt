@@ -1,0 +1,9 @@
+function play() callbacks {
+    function blackScore(c1, c2, c3, c4);
+    function whiteScore(c1, c2, c3, c4);
+}
+
+main {
+    call ans = play();
+    write ans;
+}

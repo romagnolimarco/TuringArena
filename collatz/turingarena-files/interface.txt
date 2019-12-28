@@ -1,0 +1,7 @@
+function collatz(n);
+
+main {
+    read n;
+    call iterazioni = collatz(n);
+    write iterazioni;
+}

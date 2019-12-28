@@ -1,0 +1,11 @@
+function max_sottointervallo(N, seq[]);
+
+main {
+    read N;
+    for i to N {
+        read seq[i];
+    }
+
+    call index = max_sottointervallo(N, seq);
+    write index;
+}

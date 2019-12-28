@@ -1,0 +1,13 @@
+In questa directory vanno messi i problemi, come sottodirectory. 
+È consigliabile che i problemi siano clone di repository git, non mettersi 
+a lavorare nelle directory dei problemi se non per hotfix al volo, ma 
+piuttosto committare da un altro utente o un altra macchina su git e poi 
+fare pull nella relativa directory. 
+
+È necessario generare i file dei problemi per utilizzarli dal web (altrimenti
+si avrà un brutto errore 500), per farlo utilizzare il comando:
+	turingarena-dev file sync --zip --force
+dove l'opzione --zip indica di creare il files.zip che si può scaricare dal 
+web, e --force ignora il fatto che la directory già esista. Ricordarsi di 
+dare questo comando ogni qualvolta si aggiornano i problemi in qualche modo
+(es dopo un git pull).
